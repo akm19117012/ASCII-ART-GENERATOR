@@ -53,6 +53,8 @@ def asc_vid():
     while success:
         print("Frame no = %d"%count)
         success,image=vidcap.read()
+        if image is None:
+            break
         cv2.imwrite('frame_in.jpg',image)
         asciify_img()
         ascfrm=cv2.imread('frame_out.jpg')
