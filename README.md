@@ -17,6 +17,10 @@ Extending this idea of converting image to ASCII Art in this project we will be 
 
 Our code have two functions "asciify_img()" and "asc_vid()" for converting image and video to ascii art respectively.<br>
 "main()" function will first call "asc_vid()" function for converting given video to ASCII ART.<br>
+"asciify_img()" will convert current frame of video to ASCII art <br>
+Converting an image to ASCII format include mapping each pixel to corresponding character from charArray (line 9 of code)<br>
+than resizing image using "scale_factor" (line 20 of code)
+from line 25 to line 31 of we iterate over pixels of image to corresponding characters .
 "asc_vid()" will call "asciify_image()" to convert every frame of video to ASCII ART and will return the ASCIIFIED frame<br>
 code will than append the resulting frame to video<br>
 The process will run for every frame.<br>
