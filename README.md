@@ -23,3 +23,5 @@ The process will run for every frame.<br>
 We will finally get ASCIIFIED video as a result.<br>
 
 # LEARNINGS FROM PROJECT
+Basics of Images ,how images are stored, image manipulation like resizing and resampling , using OpenCV and Pillow for Image manipulation, working with videos using OpenCV.
+
